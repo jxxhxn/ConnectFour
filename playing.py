@@ -63,3 +63,5 @@ class RandomPlayer(Player):
             if b.can_add_to(col) == True:
                 available_list += [col]
         return random.choice(available_list)
+
+connect_four(Player('X'),Player('O'))
